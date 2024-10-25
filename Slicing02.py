@@ -1,9 +1,7 @@
 def main(s):
-    """
-    The s string variable is given. return four characters from the end.
-    Args:
-        s(str): parameter
-    Returns:
-        str: answer
-    """
-    return
+    s="Pythoncode"
+    x= s[-1:-1*(len(s)+1):-1]
+    
+    print(x)
+    
+    
