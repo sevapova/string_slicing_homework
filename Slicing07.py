@@ -7,4 +7,8 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    return s[:-n] if n <=len(s) else ""
+
+
+print (main("Hello,World!",4))
+print (main("Kompyuter",2))

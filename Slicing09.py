@@ -6,4 +6,7 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    return s[::2]
+s='abcdef'
+x=main(s)
+print (s)

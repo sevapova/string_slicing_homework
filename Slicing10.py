@@ -8,4 +8,7 @@ def main(s,n,k):
     Returns:
         str: answer
     """
-    return
+    return s[n:k]
+
+x=main("Sevara Latipova",7,8)
+print (x)
