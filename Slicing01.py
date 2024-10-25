@@ -4,6 +4,9 @@ def main(s):
     Args:
         s(str): parameter
     Returns:
-        str: answer
-    """
-    return
+        str: anser
+    """    
+    return s[:4] 
+
+x=main("Latipova Sevara")
+print (x)
