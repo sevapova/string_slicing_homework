@@ -5,4 +5,7 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    x=s[1:len(s)]
+    return x
+a = main('Salom hjvkgjhvkjb!')
+print(a)
