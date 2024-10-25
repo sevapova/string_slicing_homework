@@ -7,4 +7,7 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    return s[:-n]
+x=main("Sevara",5)
+
+print (x)
